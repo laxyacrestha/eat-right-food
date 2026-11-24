@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eat Right Food serves fresh, balanced meals made from seasonal fruit, vegetables and whole grains.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Eat Right Food | Fresh, healthy meals</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-container container">
+            <input type="checkbox" aria-label="Open menu">
+            <div class="hamburger-line">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <div class="menu-list">
+                <li><a href="#showcase">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#category">Category</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#testimonial">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+            <h1 class="logo">FW</h1>
+        </div>
+    </nav>
+    <section id="showcase">
+        <div class="content">
+            <h1>Eat Right Food</h1>
+            <p>Fresh, balanced meals made from seasonal ingredients</p>
+            <a href="#menu" class="btn btn-primary">See the menu</a>
+        </div>
+        <!-- <img src="./img/header-image2.jpg" alt=""> -->
+    </section>
+    <section id="about">
+        <div class="about-container container">
+            <div class="about-text">
+                <p class="abt-us">About us</p>
+                <h2>We've been making healthy food for 10 years</h2>
+                <p>Since 2016 we have cooked with one rule: simple ingredients, prepared fresh every day. We buy fruit and vegetables from local farms, use whole grains instead of refined flour, and keep oil and sugar low. Every dish is made to order, so you get a meal that tastes good and leaves you feeling light.</p>
+            </div>
+            <div class="about-img">
+                <img src="img/about-photo.jpg" alt="Our kitchen team preparing fresh vegetables">
+            </div>
+        </div>
+    </section>
+    <section id="category">
+        <h2>Types of food</h2>
+        <div class="food-container container">
+            <div class="food-type fruit">
+                <div class="img-container">
+                    <img src="./img/food1.jpg" alt="Fresh seasonal fruit">
+                    <div class="img-content">
+                        <h3>Fruit</h3>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type vegetable">
+                <div class="img-container">
+                    <img src="./img/food2.jpg" alt="Colorful fresh vegetables">
+                    <div class="img-content">
+                        <h3>Vegetable</h3>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="food-type grain">
+                <div class="img-container">
+                    <img src="./img/food3.jpg" alt="Whole grains and millets">
+                    <div class="img-content">
+                        <h3>Grain</h3>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <h2 class="food-menu-heading">Food menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-item-img">
+                    <img src="./img/food-menu1.jpg" alt="Quinoa veggie bowl">
+                </div>
+                <div class="food-item-content">
+                    <h3>Quinoa Veggie Bowl</h3>
+                    <p>Quinoa with roasted pumpkin, broccoli, chickpeas and a lemon-herb dressing.</p>
+                    <p class="price">Price: &#8377; 250</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-item-img">
+                    <img src="./img/food-menu2.jpg" alt="Grilled paneer salad">
+                </div>
+                <div class="food-item-content">
+                    <h3>Grilled Paneer Salad</h3>
+                    <p>Grilled paneer on crisp greens with cucumber, tomato and a mint-yogurt dressing.</p>
+                    <p class="price">Price: &#8377; 260</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-item-img">
+                    <img src="./img/food-menu3.jpg" alt="Millet khichdi with ghee">
+                </div>
+                <div class="food-item-content">
+                    <h3>Millet Khichdi with Ghee</h3>
+                    <p>Slow-cooked millet and moong dal with seasonal vegetables and a spoon of ghee.</p>
+                    <p class="price">Price: &#8377; 270</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-item-img">
+                    <img src="./img/food-menu4.jpg" alt="Seasonal fruit bowl">
+                </div>
+                <div class="food-item-content">
+                    <h3>Seasonal Fruit Bowl</h3>
+                    <p>A mix of fresh-cut fruit of the day, served chilled with a squeeze of lime.</p>
+                    <p class="price">Price: &#8377; 150</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-item-img">
+                    <img src="./img/food-menu5.jpg" alt="Brown rice buddha bowl">
+                </div>
+                <div class="food-item-content">
+                    <h3>Brown Rice Buddha Bowl</h3>
+                    <p>Brown rice, sautéed greens, sprouts, avocado and a sesame-ginger sauce.</p>
+                    <p class="price">Price: &#8377; 270</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-item-img">
+                    <img src="./img/food-menu6.jpg" alt="Multigrain veggie wrap">
+                </div>
+                <div class="food-item-content">
+                    <h3>Multigrain Veggie Wrap</h3>
+                    <p>A multigrain wrap filled with grilled vegetables, hummus and fresh greens.</p>
+                    <p class="price">Price: &#8377; 230</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial">
+        <h2 class="testimonial-title">What our customers say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">I eat here three times a week. The quinoa bowl is filling without feeling heavy, and everything tastes fresh.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo"><img src="./img/male-photo1.jpg" alt="Portrait of Rohan Sharma"></div>
+                    <p class="customer-name">Rohan Sharma</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Finally a healthy place that doesn't compromise on flavor. The millet khichdi reminds me of home cooking.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo"><img src="./img/male-photo2.jpg" alt="Portrait of Amit Verma"></div>
+                    <p class="customer-name">Amit Verma</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Friendly staff, quick service and fair prices. The grilled paneer salad is my go-to lunch at work.</p>
+                <div class="customer-detail">
+                    <div class="customer-photo"><img src="./img/male-photo3.jpg" alt="Portrait of Karan Mehta"></div>
+                    <p class="customer-name">Karan Mehta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-image">
+                <img src="./img/restraunt-image.jpg" alt="Inside the Eat Right Food restaurant">
+            </div>
+            <div class="contact-detail">
+                <h2>Contact us</h2>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message or table booking request"></textarea>
+                <a href="#" class="btn btn-primary"><p>Send message</p></a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>&copy; 2026 Eat Right Food. All rights reserved.</h2>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
